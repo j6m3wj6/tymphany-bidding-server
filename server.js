@@ -1,10 +1,11 @@
 // import mongoose from 'mongoose' 
 
 // create an express app
-const express = require("express");
+import express from 'express'
+// const express = require("express");
 const app = express();
 
-const { MongoClient } = require("mongodb");
+// const { MongoClient } = require("mongodb");
 const uri = process.env.MONGODB_URI;
 console.log(uri)
 // const uri = "mongodb+srv://j6m3wj6:0000@cluster0.gnphr.mongodb.net/Tymphany-Bidding?retryWrites=true&w=majority";
@@ -23,4 +24,5 @@ app.get('/test', async function (req, res) {
 
 // start the server listening for requests
 app.listen(process.env.PORT || 3000, 
-	() => console.log("Server is running..."));
+  () => console.log(`Server is running at ${process.env.PORT} || 3000 \n
+  uri = ${uri}`));
