@@ -7,7 +7,7 @@ const bodyParser =require('body-parser');
 const cors =require('cors');
 
 const corsOptions = {
-  origin: ['https://j6m3wj6.github.io/tymphany-bidding-demo/', 'http://localhost:3000','http://127.0.0.1:3000'],
+  origin: ['https://j6m3wj6.github.io/tymphany-bidding-demo/', 'https://j6m3wj6.github.io/', 'http://localhost:3000','http://127.0.0.1:3000'],
   credentials: true,
 }
 process.env.MONGO_URL = "mongodb+srv://j6m3wj6:0000@cluster0.gnphr.mongodb.net/Tymphany-Bidding?retryWrites=true&w=majority";
