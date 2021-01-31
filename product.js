@@ -11,7 +11,12 @@ const ProductSchema = new Schema(
     module: String,
     color: String,
     type: String,
-    // imgUrl: String
+    bidding: [{
+      name: String,
+      employeeID: String,
+      email: String,
+      price: String
+    }]
     // pcs: String
   }
 );

@@ -128,8 +128,8 @@ app.delete('/api/bidding', async function (req, res) {
 app.put('/api/bidding', async function (req, res) {
   console.log('Update')
   Product.findOneAndUpdate(
-    { brand: "iHome" }, 
-    { $set: { color: 'red' }}, 
+    { _no: req.body._no }, 
+    { $set: req.body.updateContent}, 
     (err) => {
     if (err) {
       console.log(err);
