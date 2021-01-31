@@ -72,7 +72,7 @@ app.get('/', async function (req, res) {
   res.status(200).send({message: "Hello, World!"})
 })
 app.get('/api/bidding', async function (req, res) {
-  console.log('/api/bidding')
+  console.log('GET /api/bidding')
   // var awesome_instance = new Product({ brand: 'testBrand', module: 'testModule', color: 'testColor' });
   // awesome_instance.save(function (err) {
   //   if (err) return handleError(err);
@@ -129,7 +129,7 @@ app.put('/api/bidding', async function (req, res) {
   console.log('Update')
   Product.findOneAndUpdate(
     { _no: req.body._no }, 
-    { $set: req.body.updateContent}, 
+    { $push: req.body.updateContent}, 
     (err) => {
     if (err) {
       console.log(err);
