@@ -15,7 +15,8 @@ const ProductSchema = new Schema(
       name: String,
       employeeID: String,
       email: String,
-      price: String
+      price: String,
+      time: Date
     }]
     // pcs: String
   }
