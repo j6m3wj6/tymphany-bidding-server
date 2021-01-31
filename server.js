@@ -1,9 +1,9 @@
 const data = require('./data.json')
 
-const mongoose =require('mongoose');
-const Product =require('./product.js');
-const express =require('express');
-const bodyParser =require('body-parser');
+const mongoose = require('mongoose');
+const Product = require('./product.js');
+const express = require('express');
+const bodyParser = require('body-parser');
 const cors =require('cors');
 
 const corsOptions = {
@@ -14,7 +14,6 @@ process.env.MONGO_URL = "mongodb+srv://j6m3wj6:0000@cluster0.gnphr.mongodb.net/T
 const uri = process.env.MONGODB_URI;
 
 const app = express();
-app.use(express.static("public"));
 app.use(cors(corsOptions))
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
@@ -22,6 +21,7 @@ app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   next();
 });
+app.use(express.static("public"));
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }));
 
