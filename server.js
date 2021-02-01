@@ -131,8 +131,8 @@ app.delete('/api/bidding', async function (req, res) {
   });
 })
 
-app.put('/api/bidding', async function (req, res) {
-  console.log('Update')
+app.post('/api/bidding', async function (req, res) {
+  console.log('Update /api/bidding')
   Product.findOneAndUpdate(
     { _no: req.body._no }, 
     { $push: req.body.updateContent}, 
