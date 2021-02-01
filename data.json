@@ -1,205 +1,321 @@
 [
   {
-  "_no": "1",
+  "_no": 1,
   "brand": "iHome",
   "module": "IBN97",
   "color": "Grey",
-  "type": "Sealed"
+  "type": "Sealed",
+  "pcs": 1,
+  "conditions": "Power, BT, Sound OK",
+  "shortage": "",
+  "set": ""
   },
   {
-  "_no": "2",
+  "_no": 2,
   "brand": "FUHU",
   "module": "KARAOKE NABI",
   "color": "White",
-  "type": "Sealed"
+  "type": "Sealed",
+  "pcs": 1,
+  "conditions": "Power, BT, Sound OK",
+  "shortage": "",
+  "set": ""
   },
   {
-  "_no": "5",
+  "_no": 3,
+  "brand": "LIBRATONE",
+  "module": "ZIPP",
+  "color": "Grey",
+  "type": "Sealed",
+  "pcs": 1,
+  "conditions": "",
+  "shortage": "",
+  "set": ""
+  },
+  {
+  "_no": 5,
   "brand": "Canton ",
   "module": "Subwoofer 6.2 ",
   "color": "Black",
-  "type": "Sealed"
+  "type": "Sealed",
+  "pcs": 1,
+  "conditions": "Power, Sound OK",
+  "shortage": "No BT, Banana heads to the audio connection",
+  "set": ""
   },
   {
-  "_no": "9",
+  "_no": 8,
+  "brand": "GENEVA",
+  "module": "SOUND SYSTEM MODELS",
+  "color": "Red",
+  "type": "Sealed",
+  "pcs": "1 set",
+  "conditions": "",
+  "shortage": "",
+  "set": "#8-1 Remote "
+  },
+  {
+  "_no": 9,
   "brand": "Boston Acoustics ",
   "module": "Tvee 1 soundbase",
   "color": "Black",
-  "type": "Sealed"
+  "type": "Sealed",
+  "pcs": 1,
+  "conditions": "AUX, Sound  OK, Cosmetic decent",
+  "shortage": "Touch panel poor",
+  "set": ""
   },
   {
-  "_no": "15",
+  "_no": 14,
+  "brand": "Samsung",
+  "module": "5.1.4 – HW-K950   2016",
+  "color": "BLACK",
+  "type": "Sealed",
+  "pcs": "1 set",
+  "conditions": "",
+  "shortage": "",
+  "set": "#14-1 Subwoofer, #12-2  2of speakers"
+  },
+  {
+  "_no": 15,
   "brand": "Yamaha",
   "module": "YAS-106    2016",
   "color": "BLACK",
-  "type": "Sealed"
+  "type": "Sealed",
+  "pcs": 1,
+  "conditions": "HDMI, BT, ARC  OK",
+  "shortage": "",
+  "set": ""
   },
   {
-  "_no": "16",
+  "_no": 16,
   "brand": "Yamaha",
   "module": "Yamaha YS-108   2018",
   "color": "BLACK",
-  "type": "Sealed"
+  "type": "Sealed",
+  "pcs": "1 set",
+  "conditions": "",
+  "shortage": "ARC Soundbar關掉 TV無訊號無聲無影像",
+  "set": "#16-1 Remote "
   },
   {
-  "_no": "17",
+  "_no": 17,
   "brand": "Yamaha",
   "module": "Yamaha YAS-207   2019",
   "color": "BLACK",
-  "type": "Sealed"
+  "type": "Sealed",
+  "pcs": "1 set",
+  "conditions": "HDMI, BT, ARC OK",
+  "shortage": "",
+  "set": "#17-1 Subwoofer, #17-2 Remote"
   },
   {
-  "_no": "18",
+  "_no": 18,
   "brand": "Philips",
   "module": "Fidelio B8 ",
   "color": "Metal Grey",
-  "type": "Sealed"
+  "type": "Sealed",
+  "pcs": "1 set",
+  "conditions": "Everything else is OK, but sounds like s**t",
+  "shortage": "Cannot pair with Sub",
+  "set": "#18-1 Subwoofer"
   },
   {
-  "_no": "19",
+  "_no": 19,
   "brand": "Polk",
   "module": "Signas 1 sound bar",
   "color": "Black",
-  "type": "Sealed"
+  "type": "Sealed",
+  "pcs": "1 set",
+  "conditions": "pair ok",
+  "shortage": "",
+  "set": "#19-1 Subwoofer, #19-2 Remote"
   },
   {
-  "_no": "22",
+  "_no": 20,
+  "brand": "Polk",
+  "module": "Command sound  bar / ALEXA",
+  "color": "BLACK",
+  "type": "Sealed",
+  "pcs": "1 set",
+  "conditions": "",
+  "shortage": "",
+  "set": "#20-1 Subwoofer, #20-2 Remote, #20-3 Power cable"
+  },
+  {
+  "_no": 21,
+  "brand": "",
+  "module": "Command sound  bar / ALEXA",
+  "color": "BLACK",
+  "type": "Sealed",
+  "pcs": "1 set",
+  "conditions": "",
+  "shortage": "",
+  "set": "#21-1 Subwoofer, #21-2 Remote, #21-3 Power cable"
+  },
+  {
+  "_no": 22,
   "brand": "JBL ",
   "module": "Headphone",
   "color": "Black",
-  "type": "Sealed"
+  "type": "Sealed",
+  "pcs": 1,
+  "conditions": "sound ok",
+  "shortage": "",
+  "set": ""
   },
   {
-  "_no": "23",
+  "_no": 23,
   "brand": "Samsung",
   "module": "HW-E450 sound bar",
   "color": "Black",
-  "type": "Sealed"
+  "type": "Sealed",
+  "pcs": 1,
+  "conditions": "Aux, Optical In, BT, HDMI IN – OK, Sound OK",
+  "shortage": "Cannot find remote control, Sub missing",
+  "set": ""
   },
   {
-  "_no": "25",
+  "_no": 25,
   "brand": "Vizio Google cast",
   "module": "4031 bar(GS1)",
   "color": "Black",
-  "type": "Sealed"
+  "type": "Sealed",
+  "pcs": "1 set",
+  "conditions": "HDMI,BT OK",
+  "shortage": "Sub is missing",
+  "set": ""
   },
   {
-  "_no": "26",
+  "_no": 26,
   "brand": "Vizio",
   "module": "Sound bar (SB3820)",
   "color": "Black",
-  "type": "Sealed"
+  "type": "Sealed",
+  "pcs": 1,
+  "conditions": "BT, Sound, Costmetic, Coaxial OK",
+  "shortage": "",
+  "set": ""
   },
   {
-  "_no": "26-1 ",
+  "_no": "26-1",
   "brand": "Vizio",
-  "module": "26-1 sound bar (SB3851) only",
+  "module": "Sound bar (SB3851) only",
   "color": "",
-  "type": "Sealed"
+  "type": "Sealed",
+  "pcs": 1,
+  "conditions": "BT, Sound, Costmetic, Coaxial OK",
+  "shortage": "Sub is missing",
+  "set": ""
   },
   {
-  "_no": "32-4",
+  "_no": "32",
   "brand": "Vizio Satellite",
   "module": "Satellite - Small ",
   "color": "",
-  "type": "Sealed"
+  "type": "Sealed",
+  "pcs": 5,
+  "conditions": "",
+  "shortage": "",
+  "set": ""
   },
   {
-  "_no": "32-5",
-  "brand": "Vizio Satellite",
-  "module": "Satellite - Small ",
-  "color": "",
-  "type": "Sealed"
-  },
-  {
-  "_no": "32-6",
-  "brand": "Vizio Satellite",
-  "module": "Satellite - Small ",
-  "color": "",
-  "type": "Sealed"
-  },
-  {
-  "_no": "32-7",
-  "brand": "Vizio Satellite",
-  "module": "Satellite - Small ",
-  "color": "",
-  "type": "Sealed"
-  },
-  {
-  "_no": "32-8",
-  "brand": "Vizio Satellite",
-  "module": "Satellite - Small ",
-  "color": "",
-  "type": "Sealed"
-  },
-  {
-  "_no": "34",
+  "_no": 34,
   "brand": "Vizio Satellite",
   "module": "Satellite - Large ",
   "color": "",
-  "type": "Sealed"
+  "type": "Sealed",
+  "pcs": 5,
+  "conditions": "",
+  "shortage": "",
+  "set": ""
   },
   {
-  "_no": "34-1",
-  "brand": "Vizio Satellite",
-  "module": "Satellite - Large ",
-  "color": "",
-  "type": "Sealed"
-  },
-  {
-  "_no": "34-2",
-  "brand": "Vizio Satellite",
-  "module": "Satellite - Large ",
-  "color": "",
-  "type": "Sealed"
-  },
-  {
-  "_no": "34-3",
-  "brand": "Vizio Satellite",
-  "module": "Satellite - Large ",
-  "color": "",
-  "type": "Sealed"
-  },
-  {
-  "_no": "34-4",
-  "brand": "Vizio Satellite",
-  "module": "Satellite - Large ",
-  "color": "",
-  "type": "Sealed"
-  },
-  {
-  "_no": "35",
+  "_no": 35,
   "brand": "Vizio Sound bar",
   "module": "4551 bar Only",
   "color": "",
-  "type": "Sealed"
+  "type": "Sealed",
+  "pcs": 1,
+  "conditions": "Sub connection  OK, BT, HDMI OK",
+  "shortage": "",
+  "set": ""
   },
   {
-  "_no": "35-1 ",
+  "_no": "35-1",
   "brand": "Vizio Sound bar",
   "module": "4551 Soundbar Full System",
   "color": "",
-  "type": "Sealed"
+  "type": "Sealed",
+  "pcs": 1,
+  "conditions": "Sub connection  OK, BT, HDMI OK",
+  "shortage": "BT  NG",
+  "set": "35-1 4551 bar with #27 slim sub., satillite #32-2 #32-3"
   },
   {
   "_no": "36-1",
   "brand": "Vizio Sound bar",
   "module": " 4551 bar  Only",
   "color": "",
-  "type": "Sealed"
+  "type": "Sealed",
+  "pcs": 1,
+  "conditions": "Everything else is OK, but sounds like s**t",
+  "shortage": "Cannot pair with Sub",
+  "set": ""
   },
   {
-  "_no": "36",
+  "_no": 36,
   "brand": "Vizio Sound bar",
   "module": "4531 bar Only",
   "color": "",
-  "type": "Sealed"
+  "type": "Sealed",
+  "pcs": 1,
+  "conditions": "BT, HDMI OK",
+  "shortage": "Sub connection NG",
+  "set": ""
   },
   {
-  "_no": "37",
+  "_no": 37,
   "brand": "BRAVEN",
   "module": 850,
   "color": "Grey",
-  "type": "Sealed"
+  "type": "Sealed",
+  "pcs": 1,
+  "conditions": "正常",
+  "shortage": "",
+  "set": "#37-1 Power cable"
+  },
+  {
+  "_no": 39,
+  "brand": "BEATS",
+  "module": "Portable/Bugle",
+  "color": "Black",
+  "type": "Sealed",
+  "pcs": 1,
+  "conditions": "",
+  "shortage": "",
+  "set": ""
+  },
+  {
+  "_no": 40,
+  "brand": "BEATS",
+  "module": "Pill XL",
+  "color": "Black",
+  "type": "Sealed",
+  "pcs": 1,
+  "conditions": "",
+  "shortage": "",
+  "set": ""
+  },
+  {
+  "_no": 41,
+  "brand": "BEATS",
+  "module": "",
+  "color": "",
+  "type": "Sealed",
+  "pcs": 1,
+  "conditions": "",
+  "shortage": "",
+  "set": ""
   }
-]
+  ]

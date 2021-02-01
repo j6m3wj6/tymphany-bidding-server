@@ -11,6 +11,10 @@ const ProductSchema = new Schema(
     module: String,
     color: String,
     type: String,
+    conditions: String,
+    shortage: String,
+    pcs: String,
+    set: String,
     bidding: [{
       name: String,
       employeeID: String,

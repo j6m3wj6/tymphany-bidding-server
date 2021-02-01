@@ -38,15 +38,11 @@ db.on('error', (error) => {
 
 db.once('open', () => {
     console.log('DB connected!!')
-    //routes(app)
-    // app.use('/api/bidding', biddingRoutes)
-    // start listening
     app.listen(process.env.PORT || 3000, 
       () => console.log(`Server is running at ${process.env.PORT} || 3000 \n
       uri = ${process.env.MONGO_URL}`));
 })
 
-// console.log(data)
 const saveSample = () => {
   Product.remove({}, (err) => {
     if (err) {
@@ -64,13 +60,13 @@ const saveSample = () => {
     });
   });
 }
-
 // saveSample();
 
 app.get('/', async function (req, res) {
   console.log('/', req.body)
   res.status(200).send({message: "Hello, World!"})
 })
+
 app.get('/api/bidding', async function (req, res) {
   console.log('GET /api/bidding')
   console.log(req.query);
@@ -98,8 +94,8 @@ app.get('/api/bidding', async function (req, res) {
 })
 
 
-app.post('/api/bidding/seals', async function (req, res) {
-  console.log('POST /api/bidding')
+app.post('/api/bidding/save', async function (req, res) {
+  console.log('POST /api/bidding/save')
   // console.log(req);
   
   const product = new Product(req.body);
@@ -126,8 +122,8 @@ app.delete('/api/bidding', async function (req, res) {
   });
 })
 
-app.post('/api/bidding', async function (req, res) {
-  console.log('Update /api/bidding')
+app.post('/api/bidding/append', async function (req, res) {
+  console.log('Append /api/bidding')
   Product.findOneAndUpdate(
     { _no: req.body._no }, 
     { $push: req.body.updateContent}, 
@@ -136,7 +132,20 @@ app.post('/api/bidding', async function (req, res) {
       console.log(err);
       res.json({ success: false, message: err });
     }
-    // console.log(`data ${product.brand}-${product.module} saved!!!`); 
+    res.json({ success: true, message: `data updated!!!` });
+  })
+})
+
+app.post('/api/bidding/update', async function (req, res) {
+  console.log('Update /api/bidding')
+  Product.findOneAndUpdate(
+    { _no: req.body._no }, 
+    { $set: req.body.updateContent}, 
+    (err) => {
+    if (err) {
+      console.log(err);
+      res.json({ success: false, message: err });
+    }
     res.json({ success: true, message: `data updated!!!` });
   })
 })
