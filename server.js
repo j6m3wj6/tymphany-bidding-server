@@ -17,9 +17,14 @@ const app = express();
 app.use(cors(corsOptions))
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Methods", "PUT, DELETE, GET, OPTIONS");
+  res.header("Access-Control-Allow-Methods", "PUT, POST, GET, DELETE, OPTIONS");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-  next();
+  if (req.method === 'OPTIONS') {
+    res.send(200);
+  } else {
+      next();
+  }
+  // next();
 });
 app.use(express.static("public"));
 app.use(bodyParser.json())
