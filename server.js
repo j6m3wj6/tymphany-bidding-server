@@ -73,12 +73,13 @@ app.get('/', async function (req, res) {
 })
 app.get('/api/bidding', async function (req, res) {
   console.log('GET /api/bidding')
+  console.log(req.query);
   // var awesome_instance = new Product({ brand: 'testBrand', module: 'testModule', color: 'testColor' });
   // awesome_instance.save(function (err) {
   //   if (err) return handleError(err);
   //   // saved!
   // });
-  await Product.find((err, data) => {
+  await Product.find(req.query, (err, data) => {
     if (err) return res.json({ success: false, content: err });
     return res.json({ success: true, content: data });
   });
